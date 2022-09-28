@@ -13,7 +13,7 @@ public class GetAllprojectTest {
 	public void getproject() {
 		
 //setp1 pre requisites (changes in global github)
-		//step2 send the request
+		//step2 send the request(changes in local git)
 		Response resp = RestAssured.get("http://localhost:8084/projects");
 		//step3 validate the response
 		int expStatus=200;
