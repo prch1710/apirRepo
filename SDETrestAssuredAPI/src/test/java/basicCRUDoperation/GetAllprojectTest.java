@@ -12,7 +12,7 @@ public class GetAllprojectTest {
 	@Test
 	public void getproject() {
 		
-//setp1 pre requisites
+//setp1 pre requisites (changes in global github)
 		//step2 send the request
 		Response resp = RestAssured.get("http://localhost:8084/projects");
 		//step3 validate the response
